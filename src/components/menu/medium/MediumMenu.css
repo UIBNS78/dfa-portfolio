@@ -1,0 +1,77 @@
+/* MEDIUM MENU */
+.dfa-md {
+	background-color: #0082ca;
+	display: flex;
+	align-items: center;
+}
+.dfa-left { 
+	display: flex;
+	align-items: center;
+}
+
+.brand-md {
+	width: 12%;
+	margin: 0;
+}
+
+.dfa-texts { display: block; }
+
+.dfa-text-blue {
+	color: #1d252c;
+	font-weight: bold;
+}
+
+.dfa-right {
+	width: 50%;
+	align-items: center;
+}
+
+.dfa-socialIcons-tablette, .langs-md {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.nav-md { 
+	position: relative;
+	width: auto;
+	color: white;
+	z-index: 100;
+}
+
+.menu-content-md {
+	background-color: #1d252c;
+	z-index: 1;
+}
+
+.menu-content-md ul {
+	padding: 0; 
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-content-md ul li {
+	list-style: none;
+	text-align: center;
+}
+
+.menu-content-md ul li .navlink {
+	display: block;
+	color: white;
+	font-weight: bold;
+	padding: 15px 0;
+	text-decoration: none;
+}
+
+.menu-content-md ul li {
+	width: 24%;
+	margin: 0;
+	text-align: center;
+}
+
+.menu-content-md .active {
+	color: #9aa2a8 !important;
+}
