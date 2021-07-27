@@ -1,0 +1,15 @@
+.nextAndPrevious {
+	width: auto;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nextAndPrevious .text-np {
+	display: block;
+	color: #c8c8c8;
+}
+.nextAndPrevious .text-np-next {
+  	text-align: right;
+}

@@ -1,9 +1,12 @@
 .md, .sm { display: none; }
 .lg { display: block }
+
+/* Tablette */
 @media screen and (max-width: 900px) {
 	.lg { display: none; }
 	.md { display: block; }
 }
+
 /* Mobile */
 @media screen and (max-width: 540px) {
 	.md { display: none; }

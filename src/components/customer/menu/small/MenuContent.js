@@ -40,17 +40,17 @@ const MenuContent = ({open, setOpen}) => {
             iconOutlined: <HomeOutlined style={{fontSize: 20}} />
         },
         { 
-            pathname: '/base', 
+            pathname: '/skills', 
             iconContained: <Star style={{fontSize: 20}} />, 
             iconOutlined: <StarOutline style={{fontSize: 20}} />
         },
         { 
-            pathname: '/toppings', 
+            pathname: '/works', 
             iconContained: <Home style={{fontSize: 20}} />, 
             iconOutlined: <HomeOutlined style={{fontSize: 20}} />
         },
         { 
-            pathname: '/order', 
+            pathname: '/contact', 
             iconContained: <Email style={{fontSize: 20}} />, 
             iconOutlined: <EmailOutlined style={{fontSize: 20}} />
         }
@@ -78,26 +78,26 @@ const MenuContent = ({open, setOpen}) => {
                         <ul>
                             <li onClick={setOpen}>
                                 <NavLink className="navlink" to="/home">
-                                    <Typography variant="caption">Home</Typography>
+                                    <Typography variant="caption">A propos</Typography>
                                     { handleIcons('/home') }
                                 </NavLink>
                             </li>
                             <li onClick={setOpen}>
-                                <NavLink className="navlink" to="/base">
-                                    <Typography variant="caption">Base</Typography>
-                                    { handleIcons('/base') }
+                                <NavLink className="navlink" to="/skills">
+                                    <Typography variant="caption">Compétences</Typography>
+                                    { handleIcons('/skills') }
                                 </NavLink>
                             </li>
                             <li onClick={setOpen}>
-                                <NavLink className="navlink" to="/toppings">
-                                    <Typography variant="caption">Toppings</Typography>
-                                    { handleIcons('/toppings') }
+                                <NavLink className="navlink" to="/works">
+                                    <Typography variant="caption">Projets</Typography>
+                                    { handleIcons('/works') }
                                 </NavLink>
                             </li>
                             <li onClick={setOpen}>
-                                <NavLink className="navlink" to="/order">
-                                    <Typography variant="caption">Order</Typography>
-                                    { handleIcons('/order') }
+                                <NavLink className="navlink" to="/contact">
+                                    <Typography variant="caption">Contact</Typography>
+                                    { handleIcons('/contact') }
                                 </NavLink>
                             </li>
                         </ul>

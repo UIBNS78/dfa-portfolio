@@ -1,5 +1,5 @@
 import React from 'react'
-import Brand from '../brand.png'
+import Brand from '../../../../brand.png'
 import { NavLink } from 'react-router-dom'
 import Typography from '@material-ui/core/Typography'
 import { motion } from 'framer-motion'
@@ -50,10 +50,10 @@ const LargeMenu = () => {
                 />
             </div>
             <ul>
-                <li><NavLink className="navlink" to="/home">Home</NavLink></li>
-                <li><NavLink className="navlink" to="/base">Base</NavLink></li>
-                <li><NavLink className="navlink" to="/toppings">Toppings</NavLink></li>
-                <li><NavLink className="navlink" to="/order">Order</NavLink></li>
+                <li><NavLink className="navlink" to="/home">A propos</NavLink></li>
+                <li><NavLink className="navlink" to="/skills">Compétences</NavLink></li>
+                <li><NavLink className="navlink" to="/works">Projets</NavLink></li>
+                <li><NavLink className="navlink" to="/contact">Contact</NavLink></li>
             </ul>
             <div className="langs-lg">
                 <Typography 

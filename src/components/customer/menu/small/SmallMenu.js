@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Menu from '@material-ui/icons/Menu'
-import Brand from '../brand.png'
+import Brand from '../../../../brand.png'
 import { motion } from 'framer-motion'
 import MenuContent from './MenuContent'
 import './SmallMenu.css'

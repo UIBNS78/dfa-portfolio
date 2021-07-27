@@ -1,8 +1,10 @@
 import React from 'react'
-import Brand from '../brand.png'
+import Brand from '../../../../brand.png'
 import Typography from '@material-ui/core/Typography'
 import { NavLink } from 'react-router-dom'
-import { Facebook, LinkedIn, Twitter } from '@material-ui/icons'
+import Facebook from '@material-ui/icons/Facebook'
+import LinkedIn from '@material-ui/icons/LinkedIn'
+import Twitter from '@material-ui/icons/Twitter'
 import { motion } from 'framer-motion'
 import './MediumMenu.css'
 
@@ -86,10 +88,10 @@ const MediumMenu = () => {
                 animate="visible"
             >
                 <ul>
-                    <li><NavLink className="navlink" to="/home">Home</NavLink></li>
-                    <li><NavLink className="navlink" to="/base">Base</NavLink></li>
-                    <li><NavLink className="navlink" to="/toppings">Toppings</NavLink></li>
-                    <li><NavLink className="navlink" to="/order">Order</NavLink></li>
+                    <li><NavLink className="navlink" to="/home">A propos</NavLink></li>
+                    <li><NavLink className="navlink" to="/skills">Compétences</NavLink></li>
+                    <li><NavLink className="navlink" to="/works">Projets</NavLink></li>
+                    <li><NavLink className="navlink" to="/contact">Contact</NavLink></li>
                 </ul>
             </motion.div>
         </>
