@@ -1,3 +1,4 @@
+/* CENTER */
 .skills-percent {
   margin-top: 50px;
 }
@@ -21,4 +22,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* RIGHT */
+.boxes { 
+  padding: 20px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+}
+.boxes>* { 
+  padding: 0 5px 5px 5px; 
+  text-align: center; 
+  width: 50px;
+  min-width: 100px;
+  margin-bottom: 1rem;
+  border: 2px solid rebeccapurple;
+  border-radius: 5px;
 }

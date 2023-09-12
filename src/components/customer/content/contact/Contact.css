@@ -1,0 +1,19 @@
+/* CENTER */
+.input-group {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.input-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.input {
+    width: 100%;
+}
+
+/* RIGHT */
+.right-content {
+    background-color: #1d252c;
+}
